@@ -13,7 +13,7 @@ app.get("/", function(req,res){
 app.post("/", function(req,res){
 
      const cityName =req.body.cityName;
-     const key = "025ddf250b4a466a84d154207230101";
+     const key = "025ddf250b4a466a84d15420723";
 const url = "https://api.weatherapi.com/v1/current.json?key="+ key+"&q="+cityName;
     https.get(url,function(response){
         console.log(response.statusCode);
