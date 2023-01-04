@@ -32,11 +32,11 @@ app.post("/", function(req,res){
 
    var jsonData = JSON.stringify(data)
 
-   const url= "https://us21.api.mailchimp.com/3.0/lists/761dfd521cd";
+   const url= "https://us21.api.mailchimp.com/3.0/lists/761dfd5";
 
    const options ={
     method:"POST",
-    auth:"ghulam1:a51457f69ab05797126a7ba84bc3f801-us21"
+    auth:"ghulam1:a51457f6797126a7ba84bc3f801-us21"
    }
 
    const request =https.request(url,options, function(response){
@@ -69,7 +69,3 @@ app.listen(3000, function(){
 }) 
 
 
-
-// a51457f69ab05797126a7ba84bc3f801-us21
-
-//761dfd521c
