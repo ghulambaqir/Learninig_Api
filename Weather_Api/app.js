@@ -35,4 +35,7 @@ const url = "https://api.weatherapi.com/v1/current.json?key="+ key+"&q="+cityNam
 
 app.listen(3000, function(){
     console.log("Server running on port 3000");}
+    
+    
+ 
 )
